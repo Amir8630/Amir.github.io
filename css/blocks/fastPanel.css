@@ -1,0 +1,101 @@
+.fastpanel__tabs-item-blocks-tittle-color {
+    font-size: 20px;
+    color: white;
+}
+
+.fastpanel__tabs-item-blocks-tittle-color::first-letter {
+    font-family: 'FruitsandVegetables';
+}
+
+.fastpanel {
+    width: 90%;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 86px;
+    margin-bottom: 131px;
+}
+
+.fastpanel__tabs-item-block  {
+    display: flex;
+    padding: 10px 17px 10px 19px;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.fastpanel__tabs-item {
+    cursor: pointer;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 20px;
+    height: 46px;
+}
+
+.fastpanel__items {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* width: 90%; */
+    /* display: none; */
+}
+
+.fastpanel__tabs-item-block-pic{
+    padding-left: 11px;
+}
+
+.fastpanel__tabs-item-block-pic {
+    width: 26px;
+    height: 26px;
+}
+
+.panel-text {
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none; 
+}
+
+
+.filter-option:checked + .panel-text {
+    border-radius: 20px;
+    background-color: #a69a9a;
+}
+
+  
+.mySwiper {
+    display: none;
+}
+  
+  @media (max-width: 1080px) {
+        
+    .mySwiper {
+        display: block;
+    }
+
+    .fastpanel__items {
+        display: none;
+    }
+
+    .fastpanel {
+        display: none;
+        /* padding-bottom: 131px; */
+    }
+
+    .fastpanel__phone {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+  }
+
+@media (max-width: 1460px) {
+    .fastpanel__items {
+        /* display: none; */
+    }
+
+    .fastpanel {
+        /* display: none; */
+        /* padding-bottom: 131px; */
+    }
+
+}

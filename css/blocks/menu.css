@@ -1,0 +1,168 @@
+.menu__items img {
+    border-radius: 20px;
+    border: none;
+}
+
+.menu__item-text-name {
+    padding-top: 11px;
+    padding-bottom: 4px;
+    align-items: end;
+}
+
+.menu__item-cal {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+}
+
+.menu__item-cal img {
+    padding-right: 5px;
+}
+
+.menu__item-cal-count {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.menu__item-cal-pic {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.menu__item-inf {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__item-hour {
+    display: flex;
+    align-items: flex-end;
+}
+
+.menu__item-hour-count {
+    padding-left: 5px;
+}
+
+.menu__items {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 30px 16px; */
+    padding-bottom: 100px;
+    /* padding-top: 20px; */
+    /* justify-content: space-between; */
+}
+
+.title__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+.main__title {
+    font-size: 2.25rem;
+
+}
+
+.title {
+    font-size: 2.25rem;
+    vertical-align: baseline;
+}
+
+.sticky__title {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: #041423;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .menu__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 16px;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    /* justify-content: space-between; */
+}
+
+  @media (max-width: 1080px) {
+    h2 {
+        font-size: 28px;
+        padding-left: 20px;
+    }        
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .menu__item-block-pic img {
+        max-width: 90vw;
+    }
+
+    .menu__items {
+        justify-content: center;
+    }
+
+    .header__logo__medium {
+        display: none;
+    }
+  
+}
+
+
+@media (max-width: 1765px) {
+
+    .menu__item-block-pic img {
+        width: 29.3vw;
+    }
+}
+
+
+@media (max-width: 1523px) {
+
+    .menu__item-block-pic img {
+        width: 29.2vw;
+    }
+}
+
+
+@media (max-width: 1333px) {
+
+    .menu__item-block-pic img {
+        width: 29.1vw;
+    }
+}
+
+
+@media (min-width: 1081px) and (max-width: 1185px) {
+
+    .menu__item-block-pic img {
+        width: 29vw;
+    }
+}
+
+@media (max-width: 1080px) {
+
+    .menu__item-block-pic img {
+        width: 44.2vw;
+    }
+}
+
+
+@media (max-width: 999px) {
+
+    .menu__item-block-pic img {
+        width: 44vw;
+    }
+}
+
+@media (max-width: 798px) {
+ 
+    .menu__item-block-pic img {
+        width: auto;
+    }
+}
