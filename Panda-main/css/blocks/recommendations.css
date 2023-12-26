@@ -1,0 +1,19 @@
+.recommendations__block {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.recommendations__block__pic {
+    padding-top: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.recommendations__block__pic img {
+    border-radius: 20px;
+    border: none;
+}
+
+
+
